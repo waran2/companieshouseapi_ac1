@@ -184,4 +184,4 @@ if st.session_state.processing_complete and st.session_state.results_df is not N
     col2.metric("Companies Overdue", overdue_count)
     
     filed_dates = st.session_state.results_df['last_accounts_filed_date'].notna().sum()
-    col3.metric("Companies with Filed Dates", filed_count)
+    col3.metric("Companies with Filed Dates", filed_dates)
