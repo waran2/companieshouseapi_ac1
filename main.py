@@ -142,12 +142,12 @@ with st.expander("🔑 API Key Setup"):
 # Sidebar for settings
 with st.sidebar:
     st.header("Settings")
-    api_key = st.text_input("Companies House API Key", type="password")
+    api_key = st.text_input("Enter Companies House API Key", type="password")
     st.markdown("---")
     st.markdown("""
     **Note:** The free API has rate limits:
-    - 600 requests per 5 minutes
-    - Processing 3,000 companies takes ~30 minutes
+    - 300 requests per 5 minutes
+    
     """)
 
 # File upload section
